@@ -4,7 +4,7 @@
  * Date: 11/19/2017
  * 
  * Given an integer representing a given amount of change, write a function to 
- * compute the total number of coins required to make that amount of change. 
+ * compute the minimum number of coins required to make that amount of change. 
  * 
  * eg. (assuming American coins: 1, 5, 10, and 25 cents)
  * minCoins(1) = 1 (1)
