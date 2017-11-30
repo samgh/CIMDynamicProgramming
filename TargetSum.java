@@ -147,6 +147,6 @@ public class TargetSum {
                 "topDownTargetSumHashMap failed for nums = " + Arrays.toString(nums) + ", target = " + target;
             assert bottomUpTargetSum(nums, target) == output:
                 "bottomUpTargetSum failed for nums = " + Arrays.toString(nums) + ", target = " + target;
-           }
+        }
     }
 }
