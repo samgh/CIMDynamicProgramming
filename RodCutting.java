@@ -64,7 +64,7 @@ public class RodCutting {
         return dp[length];
     }
     
-     // Sample testcases
+    // Sample testcases
     public static void main(String[] args) {
         (new TestCase(new int[]{}, 0, 0)).run();
         (new TestCase(new int[]{1, 5, 8, 9, 10, 10}, 1, 1)).run();
