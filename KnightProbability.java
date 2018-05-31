@@ -15,7 +15,6 @@
  * 
  * Execution: javac KnightProbability.java && java KnightProbability 
  */
-import java.util.Arrays;
 
 public class KnightProbability {
     // Define the 8 possible moves that a knight can make in chess 
