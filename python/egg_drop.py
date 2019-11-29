@@ -131,36 +131,3 @@ if __name__ == '__main__':
     unittest.main()
 
 
-#         
-#     // Sample testcases
-#     public static void main(String[] args) {
-#         (new TestCase(1, 1, 1)).run();
-#         (new TestCase(1, 10, 10)).run();
-#         (new TestCase(2, 10, 4)).run();
-#         (new TestCase(2, 20, 6)).run();
-#         (new TestCase(3, 10, 4)).run();
-#         System.out.println("Passed all test cases");
-#     }
-#     
-#     // Class for defining and running test cases
-#     private static class TestCase {
-#         private int eggs;
-#         private int floors;
-#         private int output;
-#         
-#         private TestCase(int eggs, int floors, int output) {
-#             this.eggs = eggs;
-#             this.floors = floors;
-#             this.output = output;
-#         }
-#         
-#         private void run() {
-#             assert bruteForceEggDrop(eggs, floors) == output:
-#                 "bruteForceEggDrop failed for eggs = " + eggs + ", floors = " + floors;
-#             assert topDownEggDrop(eggs, floors) == output:
-#                 "topDownEggDrop failed for eggs = " + eggs + ", floors = " + floors;
-#             assert bottomUpEggDrop(eggs, floors) == output:
-#                 "bottomUpEggDrop failed for eggs = " + eggs + ", floors = " + floors;
-#         }
-#     }
-# }
