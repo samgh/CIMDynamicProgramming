@@ -70,8 +70,8 @@ public class EggDrop {
         if (dp[eggs][floors] == 0) {
             int maxDrops = Integer.MAX_VALUE;
             for (int i = 1; i <= floors; i++) {
-                int breaks = bruteForceEggDrop(eggs - 1, i - 1);
-                int doesntBreak = bruteForceEggDrop(eggs, floors - i);
+                int breaks = topDownEggDrop(eggs - 1, i - 1);
+                int doesntBreak = topDownEggDrop(eggs, floors - i);
                 maxDrops = Math.min(maxDrops, Math.max(breaks, doesntBreak));                    
             }
             dp[eggs][floors] = maxDrops + 1;
