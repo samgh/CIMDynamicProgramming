@@ -10,7 +10,7 @@
  * editDistance("ABCD", "ACBD") = 2 (ABCD->ACCD->ACBD)
  * editDistance("AC", "ABCD") = 2 (AC->ABC->ABCD) 
  * 
- * Execution: javac EditDistance.java && java EditDistance
+ * Execution: python edit_distance.py
 """
 import unittest
 from typing import List
